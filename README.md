@@ -165,5 +165,5 @@ Backend-приложение поискового движка для индек
 
 **Mukhtar-Pasha Tarkovskiy**
 
-✉️ [Email](mailto:mukhtarpashatarkovskiy@mail.ru)  
+✉️ [mukhtarpashatarkovskiy@mail.ru](mailto:mukhtarpashatarkovskiy@mail.ru) 
 ✈️ [Telegram](https://t.me/TARKOVSKIYM)
