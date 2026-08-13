@@ -161,9 +161,9 @@ Backend-приложение поискового движка для индек
 
 ---
 
-# 📫 Contacts
+## 📬 Контакты
 
 **Mukhtar-Pasha Tarkovskiy**
 
-[💻 GitHub](https://github.com/MukhtarPashaTarkovskiy)  
-[✈️ Telegram](https://t.me/TARKOVSKIYM)
+✉️ [Email](mailto:mukhtarpashatarkovskiy@mail.ru)  
+✈️ [Telegram](https://t.me/TARKOVSKIYM)
