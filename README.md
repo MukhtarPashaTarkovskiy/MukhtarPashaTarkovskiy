@@ -1,5 +1,7 @@
 # 👋 Mukhtar-Pasha Tarkovskiy — QA Engineer
 
+<img src="avatar.jpg" width="200" alt="Mukhtar-Pasha Tarkovskiy">
+
 **Junior QA Engineer | Manual Testing · API Testing · UI Automation**
 
 Занимаюсь тестированием Web и Mobile приложений, REST API и автоматизацией UI-тестов на Java.
