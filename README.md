@@ -2,45 +2,144 @@
 
 <img src="avatar.jpg" width="200" alt="Mukhtar-Pasha Tarkovskiy">
 
-**Junior QA Engineer | Manual Testing · API Testing · UI Automation**
+**Junior QA Engineer | Manual Testing · API Testing · UI Test Automation**
 
-Занимаюсь тестированием Web и Mobile приложений, REST API и автоматизацией UI-тестов на Java.
+Занимаюсь функциональным тестированием веб- и мобильных приложений, проверкой REST API и разработкой автоматизированных тестов на Java.
 
-В портфолио собрал проекты, в которых проходил полный QA-цикл: анализировал требования, проектировал проверки, выполнял тестирование, оформлял баг-репорты и evidence, работал с API и писал UI-автотесты.
+Работаю с **REST Assured, Selenium WebDriver, Selenide, TestNG, JUnit 5, PostgreSQL, JDBC, Postman и Maven**.
 
-Также разработал backend-проект на Java / Spring Boot, поэтому понимаю взаимодействие клиента, REST API, бизнес-логики и базы данных не только со стороны тестирования.
+В портфолио представлены проекты ручного и автоматизированного тестирования, тестовая документация, баг-репорты, API-коллекции и Java-приложения.
+
+Разрабатываю собственное веб-приложение Task Manager и отдельный многомодульный проект его автоматизированного тестирования. Это позволяет работать с системой на уровнях **UI → REST API → бизнес-логика → база данных**.
 
 ---
 
 ## 🧰 Tech Stack
 
-**Testing:** `Manual Testing` · `Functional Testing` · `Regression Testing` · `Web Testing` · `Mobile Testing` · `UI Testing`
+**Testing:** `Manual Testing` · `Functional Testing` · `Regression Testing` · `Web Testing` · `Mobile Testing` · `API Testing`
 
-**Test Documentation:** `Test Cases` · `Checklists` · `Bug Reports` · `Test Design`
+**Automation:** `Java 17` · `REST Assured` · `Selenium WebDriver` · `Selenide` · `TestNG` · `JUnit 5` · `Maven` · `Page Object Model` · `DataProvider`
 
-**API:** `REST API` · `HTTP` · `Postman` · `JSON` · `JavaScript` · `Collection Runner`
+**API & Security:** `REST API` · `HTTP` · `JSON` · `Postman` · `JSON Schema` · `Sessions` · `CSRF`
 
-**Automation:** `Java` · `Selenium WebDriver` · `JUnit 5` · `Maven` · `Page Object Model`
+**Databases:** `PostgreSQL` · `MySQL` · `SQL` · `JDBC` · `Spring Data JPA` · `Hibernate`
 
-**Backend & Data:** `SQL` · `MySQL` · `Spring Boot` · `Spring Data JPA` · `Hibernate`
+**Test Documentation:** `Test Plans` · `Test Cases` · `Checklists` · `Test Data` · `Bug Reports` · `Test Matrix`
 
-**Tools:** `Git` · `GitHub` · `Jira` · `YouGile` · `TestRail` · `DevTools` · `Charles Proxy` · `IntelliJ IDEA`
+**Tools:** `Git` · `GitHub` · `GitHub Actions` · `Allure` · `Jira` · `TestRail` · `YouGile` · `DevTools` · `Charles Proxy` · `IntelliJ IDEA` · `DBeaver`
+
+**Backend:** `Spring Boot` · `Spring Security` · `Thymeleaf` · `Docker` · `Render` · `Neon`
 
 ---
 
-# 📂 Featured QA Projects
+# 🚀 Featured Automation Projects
+
+## 🧪 Task Manager — API & UI Test Automation
+
+**Статус: в разработке**
+
+Многомодульный Maven-проект автоматизированного тестирования собственного веб-приложения Task Manager.
+
+Проект разделён на независимые модули `api-tests` и `ui-tests`, что позволяет развивать API- и UI-проверки в рамках единой тестовой архитектуры.
+
+### ✅ Реализовано
+
+- Автоматизация REST API с использованием REST Assured и TestNG.
+- Проверки регистрации, авторизации и операций с задачами.
+- Позитивные и негативные сценарии.
+- Проверки HTTP-статусов, JSON-ответов и JSON Schema.
+- Работа с HTTP-сессиями и CSRF-токенами.
+- Проверка данных PostgreSQL через JDBC.
+- Генерация уникальных тестовых данных и их автоматическая очистка.
+- Тестовая документация: тест-план, тест-кейсы, тестовые данные и матрица.
+- Базовая реализация UI-тестов авторизации с использованием Page Object.
+
+**В работе:** завершение UI-сценариев, расширение тестового покрытия, настройка общего запуска, отчётности и CI.
+
+**Стек:** `Java 17` · `REST Assured` · `TestNG` · `Selenium / Selenide` · `PostgreSQL` · `JDBC` · `Maven` · `JSON Schema`
+
+### 🔗 Проект
+
+[🧪 Task Manager — репозиторий автотестов](https://github.com/MukhtarPashaTarkovskiy/task-manager-autotests)
+
+[🌐 Открыть тестовое приложение](https://task-manager-test-588r.onrender.com)
+
+---
+
+## 🛒 SauceDemo — UI Test Automation
+
+Проект автоматизации UI-тестирования учебного интернет-магазина SauceDemo.
+
+Автотесты разработаны на Java с использованием Selenium WebDriver и TestNG. Применяется паттерн Page Object Model, параметризация через DataProvider и организация тестов по пользовательским сценариям.
+
+### ✅ Реализовано
+
+- Позитивные и негативные проверки авторизации.
+- Параметризованные тесты с различными тестовыми пользователями.
+- Проверки каталога товаров.
+- Добавление товаров в корзину и проверка её содержимого.
+- TestNG Listener и скриншоты при ошибках UI-тестов.
+- Интеграция с Allure.
+- Автоматический запуск тестов через GitHub Actions.
+- Отдельный пример подключения к PostgreSQL через JDBC.
+
+**CI:** последний проверенный запуск GitHub Actions завершился успешно.
+
+**Стек:** `Java 17` · `Selenium WebDriver` · `TestNG` · `Maven` · `Page Object Model` · `Allure` · `GitHub Actions`
+
+### 🔗 Проект
+
+[🚀 SauceDemo — исходный код и README](https://github.com/MukhtarPashaTarkovskiy/saucedemo-ui-autotests)
+
+[🌐 Тестируемый сайт SauceDemo](https://www.saucedemo.com/)
+
+---
+
+## 📋 Task Manager — Java / Spring Boot
+
+Собственное веб-приложение для управления задачами, разработанное на Java и Spring Boot.
+
+Проект используется как **Application Under Test (AUT)** для автоматизации API- и UI-тестирования.
+
+### 🏗 Реализовано
+
+- REST API для работы с пользователями и задачами.
+- Регистрация и авторизация пользователей.
+- Spring Security, HTTP-сессии и CSRF-защита.
+- Хранение данных в PostgreSQL через Spring Data JPA.
+- Раздельные тестовая и продуктивная среды.
+- Развёртывание приложения на Render.
+- Отдельные базы данных Neon для TEST и PROD.
+- Docker-конфигурация приложения.
+
+**Стек:** `Java 17` · `Spring Boot` · `Spring Security` · `Spring Data JPA` · `PostgreSQL` · `Maven` · `Docker` · `Render` · `Neon`
+
+### 🔗 Проект
+
+[💻 Task Manager — исходный код](https://github.com/MukhtarPashaTarkovskiy/task-manager)
+
+[🌐 Task Manager — PROD](https://task-manager-kqoi.onrender.com)
+
+[🧪 Task Manager — TEST](https://task-manager-test-588r.onrender.com)
+
+---
+
+# 📂 Manual QA & API Testing Projects
 
 ## 📱 SkillCinema — Mobile QA
 
 Проект по ручному тестированию мобильного приложения.
 
-Проверял пользовательские сценарии и интерфейс приложения, составлял тестовую документацию, регистрировал обнаруженные дефекты и подготавливал screenshot evidence. Материалы организованы так, чтобы по багу можно было перейти к соответствующим скриншотам.
+Проверял пользовательские сценарии и интерфейс приложения, составлял тестовую документацию, регистрировал обнаруженные дефекты и подготавливал screenshot evidence.
 
 **Навыки:** `Mobile Testing` · `Functional Testing` · `UI Testing` · `Test Cases` · `Bug Reporting` · `Jira`
 
 ### 🔗 Материалы
-[📁 Открыть проект SkillCinema](https://drive.google.com/drive/folders/1-X1QR9JyVFGZ3ljaElOygK95dOO6qGx_?usp=sharing)  
-[📊 QA Portfolio — документация и навигация](https://docs.google.com/spreadsheets/d/1J-vHH_nV1emMXVcjufveTKT9GBUTaFEkkK3Aq9zW-DQ/edit?usp=sharing)  
+
+[📁 Открыть проект SkillCinema](https://drive.google.com/drive/folders/1-X1QR9JyVFGZ3ljaElOygK95dOO6qGx_?usp=sharing)
+
+[📊 QA Portfolio — документация и навигация](https://docs.google.com/spreadsheets/d/1J-vHH_nV1emMXVcjufveTKT9GBUTaFEkkK3Aq9zW-DQ/edit?usp=sharing)
+
 [🖼️ Screenshot Evidence](https://drive.google.com/drive/folders/1s2TQomFZ1ObBKX8WsQl0HJAl1G8tiHhP?usp=sharing)
 
 ---
@@ -49,20 +148,25 @@
 
 Проект по ручному функциональному тестированию интернет-магазина.
 
-Анализировал требования, проектировал приемочные сценарии, проверял главную страницу, каталог, карточку товара, корзину, оформление заказа, регистрацию и личный кабинет. Обнаруженные проблемы и замечания оформлял в YouGile.
+Анализировал требования, проектировал приёмочные сценарии, проверял главную страницу, каталог, карточку товара, корзину, оформление заказа, регистрацию и личный кабинет. Обнаруженные проблемы и замечания оформлял в YouGile.
 
 ### 📊 Результаты
-- **45** приемочных тестовых сценариев;
-- **161** зарегистрированный баг / замечание;
-- **12** screenshot evidence;
-- публичная доска баг-репортов YouGile.
+
+- **45** приёмочных тестовых сценариев.
+- **161** зарегистрированный баг / замечание.
+- **12** screenshot evidence.
+- Публичная доска баг-репортов YouGile.
 
 **Навыки:** `Web Testing` · `Requirements Analysis` · `Test Design` · `Acceptance Testing` · `Bug Reporting`
 
 ### 🔗 Материалы
-[📊 Internet Shop QA Portfolio](https://docs.google.com/spreadsheets/d/168BPWq-8iRLeM06_ueMaA3saK8YOpPik96bbK3uXdcM/edit?usp=sharing)  
-[🐞 Публичная доска YouGile](https://ru.yougile.com/board/3satrxejn5tk)  
-[🖼️ Screenshot Evidence](https://drive.google.com/drive/folders/1Q7uHqoh6VVFotPXSNHMk1JhEnYP3zyCb?usp=sharing)  
+
+[📊 Internet Shop QA Portfolio](https://docs.google.com/spreadsheets/d/168BPWq-8iRLeM06_ueMaA3saK8YOpPik96bbK3uXdcM/edit?usp=sharing)
+
+[🐞 Публичная доска YouGile](https://ru.yougile.com/board/3satrxejn5tk)
+
+[🖼️ Screenshot Evidence](https://drive.google.com/drive/folders/1Q7uHqoh6VVFotPXSNHMk1JhEnYP3zyCb?usp=sharing)
+
 [📁 Все материалы проекта](https://drive.google.com/drive/folders/1fQcUGZ15YGUWrD0HacVdj_CrUvJ2TBxv?usp=sharing)
 
 ---
@@ -71,19 +175,28 @@
 
 Набор практических проектов по тестированию REST API.
 
-Создавал коллекции `GET`, `POST`, `PUT`, `PATCH`, `DELETE`, настраивал environments и переменные, работал с токенами авторизации и динамическими данными между запросами. Писал JavaScript-проверки с `pm.test()` и `pm.expect()` и запускал связанные сценарии через Collection Runner.
+Создавал коллекции `GET`, `POST`, `PUT`, `PATCH`, `DELETE`, настраивал environments и переменные, работал с токенами авторизации и динамическими данными между запросами.
+
+Писал JavaScript-проверки с `pm.test()` и `pm.expect()` и запускал связанные сценарии через Collection Runner.
 
 В портфолио представлены **PFLB Test API**, **PR-CY API** и API Homework.
 
 **Навыки:** `REST API` · `HTTP` · `Postman` · `JSON` · `JavaScript` · `Authorization`
 
 ### 🔗 Collections & Environments
-[🧪 PFLB Test API Collection](https://drive.google.com/file/d/1d-yX58vZmbiDPghBC9FuVCSN5fs1cOhR/view?usp=sharing)  
-[🌐 PFLB Test Environment](https://drive.google.com/file/d/1EGU4U2q5oTGt5KpuQkMIXqpCUyFUWY-Z/view?usp=sharing)  
-[🔐 PFLB Token Environment](https://drive.google.com/file/d/11yuTQ8PkO7dyd3C_XkofPNfRwA8N5Nbh/view?usp=sharing)  
-[🔎 PR-CY API Collection](https://drive.google.com/file/d/1OEg2hpiDMR-u4sddvupBzhTDFP9yQHBI/view?usp=sharing)  
-[🌐 PR-CY Environment](https://drive.google.com/file/d/1Isjo_yBucUz1ObBGluNmYwSoqOoP7tgF/view?usp=sharing)  
-[🧪 API Homework Collection](https://drive.google.com/file/d/1yTzVVKuXK9ZYQWNJwUD9avXF8WnhNhX9/view?usp=sharing)  
+
+[🧪 PFLB Test API Collection](https://drive.google.com/file/d/1d-yX58vZmbiDPghBC9FuVCSN5fs1cOhR/view?usp=sharing)
+
+[🌐 PFLB Test Environment](https://drive.google.com/file/d/1EGU4U2q5oTGt5KpuQkMIXqpCUyFUWY-Z/view?usp=sharing)
+
+[🔐 PFLB Token Environment](https://drive.google.com/file/d/11yuTQ8PkO7dyd3C_XkofPNfRwA8N5Nbh/view?usp=sharing)
+
+[🔎 PR-CY API Collection](https://drive.google.com/file/d/1OEg2hpiDMR-u4sddvupBzhTDFP9yQHBI/view?usp=sharing)
+
+[🌐 PR-CY Environment](https://drive.google.com/file/d/1Isjo_yBucUz1ObBGluNmYwSoqOoP7tgF/view?usp=sharing)
+
+[🧪 API Homework Collection](https://drive.google.com/file/d/1yTzVVKuXK9ZYQWNJwUD9avXF8WnhNhX9/view?usp=sharing)
+
 [📁 Все материалы API Testing](https://drive.google.com/drive/folders/17gaP-UZHmDuvZtWhrwC3cScYoW4dagzw?usp=sharing)
 
 > Environment-файлы для публичного портфолио сохранены без рабочих секретов и токенов.
@@ -92,40 +205,45 @@
 
 ## 🔍 PR-CY — Web QA
 
-Командный проект по тестированию веб-сервиса PR-CY.
+Командный проект по ручному тестированию веб-сервиса PR-CY.
 
 Моя основная зона ответственности — раздел **«Тариф и цены»**. Анализировал функциональность и требования, декомпозировал их на проверки, составлял чек-лист, работал с тест-кейсами и баг-репортами.
 
 ### 📊 Результаты
-- **375** уникальных тест-кейсов в портфельной версии командного проекта;
-- за мной закреплено **226 проверок** командного чек-листа;
-- **225 проверок** относятся к разделу **«Тариф и цены»**;
-- подготовлены примеры баг-репортов и screenshot evidence из Jira.
+
+- **375** уникальных тест-кейсов в портфельной версии командного проекта.
+- За мной закреплено **226 проверок** командного чек-листа.
+- **225 проверок** относятся к разделу **«Тариф и цены»**.
+- Подготовлены примеры баг-репортов и screenshot evidence из Jira.
 
 В зоне ответственности проверялись карточки и сравнение тарифов, оформление подписки, промокоды, калькулятор лимитов, дополнительные опции, формы и связанные пользовательские сценарии.
 
 **Навыки:** `Web Testing` · `Test Design` · `Checklists` · `Test Cases` · `TestRail` · `Jira` · `Teamwork`
 
 ### 🔗 Материалы
-[📊 PR-CY — тест-кейсы](https://docs.google.com/spreadsheets/d/1hd2Ja4FyrcNSwSY1PIItUsdUAUBZzYY2YEd1R4JlFKE/edit?usp=sharing)  
-[📋 PR-CY — командный чек-лист](https://docs.google.com/spreadsheets/d/1iU4oAHN2yWhRHvGxpqcsC8vBa-tghBKHpVirv7yruGI/edit?usp=sharing)  
+
+[📊 PR-CY — тест-кейсы](https://docs.google.com/spreadsheets/d/1hd2Ja4FyrcNSwSY1PIItUsdUAUBZzYY2YEd1R4JlFKE/edit?usp=sharing)
+
+[📋 PR-CY — командный чек-лист](https://docs.google.com/spreadsheets/d/1iU4oAHN2yWhRHvGxpqcsC8vBa-tghBKHpVirv7yruGI/edit?usp=sharing)
+
 [📁 Все материалы PR-CY](https://drive.google.com/drive/folders/1Clod1EhlEKHuiW15p71PtdG0ejvvnffB?usp=sharing)
 
 ---
 
-## 🤖 UI Test Automation — Java / Selenium
+# 💻 Additional Projects
 
-Проект автоматизации UI-тестирования Web-приложения.
+## 🤖 UI Test Automation — Java / Selenium / JUnit 5
+
+Проект автоматизации UI-тестирования веб-приложения.
 
 Разрабатывал и рефакторил автотесты на Java с Selenium WebDriver и JUnit 5. Структура организована по Page Object Model: Page Objects, `BasePage`, `BaseTest` и конфигурация тестового окружения.
 
 ### 📊 Результат контрольного запуска
-- **22 теста**
-- ✅ **20 Passed**
-- ⏭️ **2 Skipped**
-- ❌ **0 Failed**
 
-В репозитории находятся исходный код, README, структура проекта и screenshot evidence успешного запуска.
+- **22 теста**
+- **20 Passed**
+- **2 Skipped**
+- **0 Failed**
 
 **Стек:** `Java` · `Selenium WebDriver` · `JUnit 5` · `Maven` · `Page Object Model` · `Git`
 
@@ -137,9 +255,9 @@
 
 Backend-приложение поискового движка для индексации сайтов и полнотекстового поиска.
 
-Работал с Java и Spring Boot, REST API, MySQL, Spring Data JPA / Hibernate, JSoup и обработкой текстовых данных. Приложение обходит страницы сайтов, сохраняет данные, выполняет лемматизацию, строит поисковый индекс и предоставляет API для управления индексацией, статистики и поиска.
+Работал с Java и Spring Boot, REST API, MySQL, Spring Data JPA / Hibernate, JSoup и обработкой текстовых данных.
 
-Проект дополняет QA-портфолио пониманием взаимодействия **REST API → бизнес-логика → база данных**.
+Приложение обходит страницы сайтов, сохраняет данные, выполняет лемматизацию, строит поисковый индекс и предоставляет API для управления индексацией, статистики и поиска.
 
 **Стек:** `Java 17` · `Spring Boot` · `REST API` · `MySQL` · `JPA` · `Hibernate` · `JSoup` · `Maven`
 
@@ -157,9 +275,9 @@ Backend-приложение поискового движка для индек
 
 # 🎯 Что показывает портфолио
 
-**Анализ требований → тест-дизайн → тестовая документация → выполнение проверок → баг-репорты и evidence → API-тестирование → UI-автоматизация**
+**Анализ требований → тест-дизайн → тестовая документация → выполнение проверок → баг-репорты → API-автоматизация → UI-автоматизация → проверка БД → отчётность и CI**
 
-Дополнительно проекты показывают понимание HTTP и REST API, клиент-серверной архитектуры, SQL и баз данных, Git/GitHub, Java и backend-разработки.
+Проекты демонстрируют практические навыки ручного и автоматизированного тестирования, понимание клиент-серверной архитектуры, REST API, SQL, Java и Git.
 
 ---
 
