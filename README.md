@@ -36,7 +36,7 @@
 
 ## 🧪 Task Manager — API & UI Test Automation
 
-**Статус: в разработке**
+**Статус: завершённый проект портфолио**
 
 Многомодульный Maven-проект автоматизированного тестирования собственного веб-приложения Task Manager.
 
@@ -52,11 +52,13 @@
 - Проверка данных PostgreSQL через JDBC.
 - Генерация уникальных тестовых данных и их автоматическая очистка.
 - Тестовая документация: тест-план, тест-кейсы, тестовые данные и матрица.
-- Базовая реализация UI-тестов авторизации с использованием Page Object.
+- UI-проверки регистрации, входа и управления задачами с использованием Selenium и Page Object.
 
-**В работе:** завершение UI-сценариев, расширение тестового покрытия, настройка общего запуска, отчётности и CI.
+**CI:** GitHub Actions на Ubuntu 24.04, последовательные наборы API/UI Smoke и Regression, общий режим All и отчётность Allure. Автоматический All в `main` завершился с результатом **127 Passed, 0 Failed, 0 Skipped (100%)**. Это 127 выполнений и 117 уникальных вариантов. [Запуск №42644411463](https://github.com/MukhtarPashaTarkovskiy/task-manager-autotests/actions/runs/42644411463).
 
-**Стек:** `Java 17` · `REST Assured` · `TestNG` · `Selenium / Selenide` · `PostgreSQL` · `JDBC` · `Maven` · `JSON Schema`
+![Allure Combined-All — 127 Passed, 0 Failed, 0 Skipped, 100%](https://raw.githubusercontent.com/MukhtarPashaTarkovskiy/task-manager-autotests/main/docs/images/allure-overview-main-127-pass.png)
+
+**Стек:** `Java 17` · `REST Assured` · `TestNG` · `Selenium WebDriver` · `PostgreSQL` · `JDBC` · `Maven` · `JSON Schema` · `Allure`
 
 ### 🔗 Проект
 
